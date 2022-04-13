@@ -1,0 +1,75 @@
+body {
+  margin: 3.5rem auto;
+  max-width: 650px;
+  background: papayawhip;
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 3.2rem;
+  margin: 3.5rem 0;
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+  margin: 3.5rem 0;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-top: 3rem;
+  color: #111;
+}
+
+p {
+  padding: 0 0.5rem;
+}
+
+p,
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+  color: #444;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0 0.5rem 0 2rem;
+}
+
+li {
+  margin-top: 1.4rem;
+}
+
+a {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: steelblue;
+  color: #f4f4f4;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: steelblue;
+  background-color: #f4f4f4;
+}
+
+/**************************** Media Queries ****************************/
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
